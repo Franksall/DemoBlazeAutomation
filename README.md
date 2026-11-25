@@ -217,7 +217,13 @@ target/site/serenity/index.html
 ```
 
 Abrir el archivo `index.html` en un navegador para consultar estadísticas, cobertura funcional, resultados por escenario, tiempos y capturas de pantalla. La carpeta `target/` se genera localmente y no necesita versionarse.
+### Capturas del reporte Serenity BDD
 
+![Reporte Serenity BDD - Vista 1](demoblaze1.png)
+
+![Reporte Serenity BDD - Vista 2](demoblaze2.png)
+
+![Reporte Serenity BDD - Vista 3](demoblaze3.png)
 ## Evidencias automáticas
 
 Además de las capturas integradas en Serenity, el proyecto utiliza Hooks de Cucumber y Selenium `TakesScreenshot` para guardar imágenes PNG independientes en la carpeta [`evidencias/`](evidencias/).
